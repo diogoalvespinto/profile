@@ -1,0 +1,78 @@
+body {
+  font-family: Space mono;
+  background-color: #F1DEC9;
+  color: #8D7B68;
+  padding: 15px;
+  text-align: center;
+}
+
+h1, h2 {
+  font-family: Space Grotesk;
+  color: #A4907C;
+}
+
+ul {
+  padding: 5px;
+}
+
+.bullets {
+  display: inline;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #617143;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+a:hover {
+  color: #E7AB9A;
+}
+
+#picture {
+  width: 65%;
+  height: 65%;
+  border-radius: 3%;
+}
+
+.container {
+  background-color: white;
+  padding: 50px;
+  width: 500px;
+  margin: 25px auto;
+  border-radius: 5px;
+  border: 1px solid #EAEAEA;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+}
+
+.card {
+  border-radius: 5px;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 10px 10px 20px rgba(0,0,0,.1);
+  margin: 20px;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
